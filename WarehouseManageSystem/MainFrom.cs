@@ -81,5 +81,19 @@ namespace WarehouseManageSystemUI
                 MessageBox.Show("非管理员禁止操作！");
             }
         }
+
+        private void 退出ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            SearchForm searchForm = new SearchForm();
+            searchForm.StartPosition = FormStartPosition.CenterScreen;
+            searchForm.ShowDialog();
+        }
+
+        private void 出库ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            InAndOutForm inAndOutForm = new InAndOutForm();
+            inAndOutForm.StartPosition = FormStartPosition.CenterScreen;
+            inAndOutForm.ShowDialog();
+        }
     }
 }
