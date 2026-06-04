@@ -9,7 +9,7 @@
 
 * 开发语言：C# <br>
 * 框架：Winform  <br>
-* 架构：C/S
+* 架构：三层架构（UI/BLL/DAL）
 * 数据库：SQL Server 2026<br>
 * 数据库工具：SQL Server Management Studio 2022<br>
 * 开发软件：Visual Studio <br>
