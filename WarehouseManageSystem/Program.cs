@@ -14,4 +14,9 @@ namespace WarehouseManageSystem
             Application.Run(new Form1());
         }
     }
+    public static class UserInformation  //信息全窗体共享
+    {
+        public static string userInfo { get; set; }
+        public static string userIdentity { get; set; }
+    }
 }

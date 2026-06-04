@@ -14,7 +14,7 @@ namespace BLL
         }
 
         //登录
-        public bool Login(User user)
+        public int Login(User user)
         {
             return userManage.Login(user);
         }

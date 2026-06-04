@@ -9,3 +9,4 @@ C:\Users\Legion\Desktop\WarehouseManageSystem\Models\obj\Debug\net10.0\Models.dl
 C:\Users\Legion\Desktop\WarehouseManageSystem\Models\obj\Debug\net10.0\refint\Models.dll
 C:\Users\Legion\Desktop\WarehouseManageSystem\Models\obj\Debug\net10.0\Models.pdb
 C:\Users\Legion\Desktop\WarehouseManageSystem\Models\obj\Debug\net10.0\ref\Models.dll
+C:\Users\Legion\Desktop\WarehouseManageSystem\Models\obj\Debug\net10.0\Models.sourcelink.json

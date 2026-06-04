@@ -15,3 +15,4 @@ C:\Users\Legion\Desktop\WarehouseManageSystem\BLL\obj\Debug\net10.0\BLL.dll
 C:\Users\Legion\Desktop\WarehouseManageSystem\BLL\obj\Debug\net10.0\refint\BLL.dll
 C:\Users\Legion\Desktop\WarehouseManageSystem\BLL\obj\Debug\net10.0\BLL.pdb
 C:\Users\Legion\Desktop\WarehouseManageSystem\BLL\obj\Debug\net10.0\ref\BLL.dll
+C:\Users\Legion\Desktop\WarehouseManageSystem\BLL\obj\Debug\net10.0\BLL.sourcelink.json

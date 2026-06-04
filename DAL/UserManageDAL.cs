@@ -24,16 +24,30 @@ namespace DAL
 
 
         //登录
-        public bool Login(User user)
+        public int Login(User user)
         {
-            string sqlstr = @"select UserName from userDB where UserName = @UserName and UserPassWord = @UserPassWord";
+            string sqlstr = @"select UserName , isAdmin from userDB where UserName = @UserName and UserPassWord = @UserPassWord";
             SqlParameter[] param = new SqlParameter[]
             {
                 new SqlParameter("@UserName",user.UserName),
                 new SqlParameter("@UserPassWord",user.UserPassword)
             };
             DataTable dt = DBHelper.GetDataTable(sqlstr,param);
-            return dt.Rows.Count > 0;
+            if (dt.Rows.Count == 0)  //登录失败
+            {
+                return 0;
+            }
+
+            DataRow dr = dt.Rows[0];
+            if (Convert.ToInt32(dr["isAdmin"])== 0) //是普通用户
+            {
+                return 1;
+            }
+            else  //是管理员
+            {
+                return 2;
+            }
+            
         }
 
 

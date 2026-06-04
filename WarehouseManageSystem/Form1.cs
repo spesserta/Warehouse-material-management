@@ -4,6 +4,7 @@ using WarehouseManageSystemUI;
 
 namespace WarehouseManageSystem
 {
+    
     public partial class Form1 : Form
     {
         public Form1()
@@ -27,21 +28,31 @@ namespace WarehouseManageSystem
             user.UserName = un;
             user.UserPassword = pwd;
 
-            bool result = umb.Login(user);
-            if (result)
+            int result = umb.Login(user);
+            if (result == 0)
             {
-                MessageBox.Show("登录成功！");
-                this.Hide();
-                MainFrom mainfrom = new MainFrom();
-                mainfrom.StartPosition = FormStartPosition.CenterScreen;
-                mainfrom.ShowDialog();
-                this.Close();
+                MessageBox.Show("账号或密码错误！");
+                return;
+            }
+            else if(result == 1) 
+            {
+                MessageBox.Show("用户登录成功！");
+                UserInformation.userIdentity = "普通用户";
                 
             }
             else
             {
-                MessageBox.Show("账号或密码错误！");
+                MessageBox.Show("管理员登录成功！");
+                UserInformation.userIdentity = "管理员";
             }
+
+            UserInformation.userInfo = un;
+            
+            this.Hide();
+            MainFrom mainfrom = new MainFrom();
+            mainfrom.StartPosition = FormStartPosition.CenterScreen;
+            mainfrom.ShowDialog();
+            this.Close();
 
 
         }

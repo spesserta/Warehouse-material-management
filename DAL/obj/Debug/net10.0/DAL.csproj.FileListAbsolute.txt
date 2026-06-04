@@ -13,3 +13,4 @@ C:\Users\Legion\Desktop\WarehouseManageSystem\DAL\obj\Debug\net10.0\DAL.dll
 C:\Users\Legion\Desktop\WarehouseManageSystem\DAL\obj\Debug\net10.0\refint\DAL.dll
 C:\Users\Legion\Desktop\WarehouseManageSystem\DAL\obj\Debug\net10.0\DAL.pdb
 C:\Users\Legion\Desktop\WarehouseManageSystem\DAL\obj\Debug\net10.0\ref\DAL.dll
+C:\Users\Legion\Desktop\WarehouseManageSystem\DAL\obj\Debug\net10.0\DAL.sourcelink.json

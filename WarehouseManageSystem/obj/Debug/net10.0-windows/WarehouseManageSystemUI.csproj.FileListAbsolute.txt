@@ -3,7 +3,6 @@ C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\bin\Debug\ne
 C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\bin\Debug\net10.0-windows\WarehouseManageSystemUI.runtimeconfig.json
 C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\bin\Debug\net10.0-windows\WarehouseManageSystemUI.dll
 C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\bin\Debug\net10.0-windows\WarehouseManageSystemUI.pdb
-C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystem.Form1.resources
 C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystemUI.csproj.GenerateResource.cache
 C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystemUI.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystemUI.AssemblyInfoInputs.cache
@@ -32,3 +31,8 @@ C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\ne
 C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\Warehous.D6D80AC9.Up2Date
 C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystemUI.RegistFrom.resources
 C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystemUI.MainFrom.resources
+C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystemUI.sourcelink.json
+C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystemUI.AddForm.resources
+C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystemUI.DelForm.resources
+C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystem.Form1.resources
+C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystemUI.EditForm.resources
