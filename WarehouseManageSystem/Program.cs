@@ -18,5 +18,6 @@ namespace WarehouseManageSystem
     {
         public static string userInfo { get; set; }
         public static string userIdentity { get; set; }
+        public static DateTime CreateTime {  get; set; }
     }
 }

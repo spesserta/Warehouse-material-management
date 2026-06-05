@@ -61,6 +61,7 @@ namespace WarehouseManageSystemUI
         {
             label2.Text = UserInformation.userInfo;
             label3.Text = UserInformation.userIdentity;
+            label8.Text = UserInformation.CreateTime.ToString();
 
             DateTime dateTime = DateTime.Now;
             label6.Text = dateTime.ToString();
@@ -94,6 +95,20 @@ namespace WarehouseManageSystemUI
             InAndOutForm inAndOutForm = new InAndOutForm();
             inAndOutForm.StartPosition = FormStartPosition.CenterScreen;
             inAndOutForm.ShowDialog();
+        }
+
+        private void 推出ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            LogsForm logsForm = new LogsForm();
+            logsForm.StartPosition = FormStartPosition.CenterScreen;
+            logsForm.ShowDialog();
+        }
+
+        private void 个人信息管理ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            guanyu guanyu1 = new guanyu();
+            guanyu1.StartPosition = FormStartPosition.CenterScreen;
+            guanyu1.ShowDialog();
         }
     }
 }

@@ -63,5 +63,23 @@ namespace DAL
             };
             return DBHelper.ExcuteCommand(sqlStr, param);
         }
+
+
+        //用户列表
+        public DataTable AllUsersDAL()
+        {
+            string sqlStr = @"select * from userDB";
+            return DBHelper.GetDataTable(sqlStr);
+        }
+
+        //通过用户名来查找用户信息
+        public DataTable SearchUserByName(string username)
+        {
+            string strsql = $"select * from userDB where UserName = {username}";
+            SqlDataAdapter da = new SqlDataAdapter(strsql, DBHelper.connString);
+            DataSet dt = new DataSet();
+            da.Fill(dt);
+            return dt.Tables[0];
+        }
     }
 }

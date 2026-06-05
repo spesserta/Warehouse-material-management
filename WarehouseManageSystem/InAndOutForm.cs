@@ -1,4 +1,5 @@
 ﻿using BLL;
+using Models;
 using Models1;
 using System;
 using System.Collections.Generic;
@@ -7,6 +8,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using WarehouseManageSystem;
 
 namespace WarehouseManageSystemUI
 {
@@ -171,8 +173,19 @@ namespace WarehouseManageSystemUI
                 if (result)
                 {
                     MessageBox.Show("出库成功！");
+                    //更新到日志
+                    Logs logs = new Logs();
+                    logs.MaterialName = label_name.Text;
+                    logs.UserName = UserInformation.userInfo;
+                    logs.OperationTime = DateTime.Now.ToString();
+                    logs.OperationType = "出库";
+                    LogsManageBLL logsManageBLL = new LogsManageBLL();
+                    logsManageBLL.AddLogs(logs);
                     RefreshGrid();
                     textBox2.Text = string.Empty;
+
+                    
+                    
                 }
                 else
                 {
@@ -214,6 +227,14 @@ namespace WarehouseManageSystemUI
                 if (result)
                 {
                     MessageBox.Show("入库成功！");
+                    //更新到日志
+                    Logs logs = new Logs();
+                    logs.MaterialName = label_name.Text;
+                    logs.UserName = UserInformation.userInfo;
+                    logs.OperationTime = DateTime.Now.ToString();
+                    logs.OperationType = "入库";
+                    LogsManageBLL logsManageBLL = new LogsManageBLL();
+                    logsManageBLL.AddLogs(logs);
                     RefreshGrid();
                     textBox3.Text = string.Empty;
                 }
