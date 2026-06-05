@@ -1,5 +1,6 @@
 ﻿using DAL;
 using Models;
+using System.Data;
 
 namespace BLL
 {
@@ -24,6 +25,20 @@ namespace BLL
         public bool UpdatePwd(User user)
         {
             return userManage.UpdatePwd(user);
+        }
+
+        //返回用户列表
+        public DataTable AllUsersBLL()
+        {
+            return userManage.AllUsersDAL();
+        }
+
+        //根据用户名进行查找
+        public DataTable GetUsersByName(string name)
+        {
+            {
+                return userManage.SearchUserByName(name);
+            }
         }
     }
 }

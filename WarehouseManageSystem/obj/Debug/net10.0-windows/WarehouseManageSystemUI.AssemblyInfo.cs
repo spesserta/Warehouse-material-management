@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("WarehouseManageSystemUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c8a462b610279f23b711b3e32f7aa809afd1292")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c662db823aae9fbff7016ed4f93d758439d87d59")]
 [assembly: System.Reflection.AssemblyProductAttribute("WarehouseManageSystemUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("WarehouseManageSystemUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
