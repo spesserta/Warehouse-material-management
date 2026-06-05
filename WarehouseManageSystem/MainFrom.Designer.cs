@@ -36,8 +36,6 @@
             修改物料ToolStripMenuItem = new ToolStripMenuItem();
             退出ToolStripMenuItem = new ToolStripMenuItem();
             出库ToolStripMenuItem = new ToolStripMenuItem();
-            入库ToolStripMenuItem = new ToolStripMenuItem();
-            个人信息管理ToolStripMenuItem = new ToolStripMenuItem();
             推出ToolStripMenuItem = new ToolStripMenuItem();
             退出ToolStripMenuItem1 = new ToolStripMenuItem();
             pictureBox1 = new PictureBox();
@@ -47,6 +45,7 @@
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
+            个人信息管理ToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -54,7 +53,7 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { 物料ToolStripMenuItem, 退出ToolStripMenuItem, 出库ToolStripMenuItem, 入库ToolStripMenuItem, 个人信息管理ToolStripMenuItem, 推出ToolStripMenuItem, 退出ToolStripMenuItem1 });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { 物料ToolStripMenuItem, 退出ToolStripMenuItem, 出库ToolStripMenuItem, 推出ToolStripMenuItem, 个人信息管理ToolStripMenuItem, 退出ToolStripMenuItem1 });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
             menuStrip1.Size = new Size(800, 30);
@@ -97,27 +96,15 @@
             退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
             退出ToolStripMenuItem.Size = new Size(108, 26);
             退出ToolStripMenuItem.Text = "物料查询";
+            退出ToolStripMenuItem.Click += 退出ToolStripMenuItem_Click;
             // 
             // 出库ToolStripMenuItem
             // 
             出库ToolStripMenuItem.Font = new Font("华文仿宋", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 134);
             出库ToolStripMenuItem.Name = "出库ToolStripMenuItem";
-            出库ToolStripMenuItem.Size = new Size(66, 26);
-            出库ToolStripMenuItem.Text = "出库";
-            // 
-            // 入库ToolStripMenuItem
-            // 
-            入库ToolStripMenuItem.Font = new Font("华文仿宋", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 134);
-            入库ToolStripMenuItem.Name = "入库ToolStripMenuItem";
-            入库ToolStripMenuItem.Size = new Size(66, 26);
-            入库ToolStripMenuItem.Text = "入库";
-            // 
-            // 个人信息管理ToolStripMenuItem
-            // 
-            个人信息管理ToolStripMenuItem.Font = new Font("华文仿宋", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 134);
-            个人信息管理ToolStripMenuItem.Name = "个人信息管理ToolStripMenuItem";
-            个人信息管理ToolStripMenuItem.Size = new Size(108, 26);
-            个人信息管理ToolStripMenuItem.Text = "个人信息";
+            出库ToolStripMenuItem.Size = new Size(119, 26);
+            出库ToolStripMenuItem.Text = "出库/入库";
+            出库ToolStripMenuItem.Click += 出库ToolStripMenuItem_Click;
             // 
             // 推出ToolStripMenuItem
             // 
@@ -198,6 +185,13 @@
             label6.TabIndex = 7;
             label6.Text = "lable7";
             // 
+            // 个人信息管理ToolStripMenuItem
+            // 
+            个人信息管理ToolStripMenuItem.Font = new Font("华文仿宋", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            个人信息管理ToolStripMenuItem.Name = "个人信息管理ToolStripMenuItem";
+            个人信息管理ToolStripMenuItem.Size = new Size(66, 26);
+            个人信息管理ToolStripMenuItem.Text = "关于";
+            // 
             // MainFrom
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
@@ -227,8 +221,6 @@
         private MenuStrip menuStrip1;
         private ToolStripMenuItem 物料ToolStripMenuItem;
         private ToolStripMenuItem 出库ToolStripMenuItem;
-        private ToolStripMenuItem 入库ToolStripMenuItem;
-        private ToolStripMenuItem 个人信息管理ToolStripMenuItem;
         private ToolStripMenuItem 推出ToolStripMenuItem;
         private ToolStripMenuItem 退出ToolStripMenuItem;
         private PictureBox pictureBox1;
@@ -242,5 +234,6 @@
         private ToolStripMenuItem 删除物料ToolStripMenuItem;
         private ToolStripMenuItem 修改物料ToolStripMenuItem;
         private ToolStripMenuItem 退出ToolStripMenuItem1;
+        private ToolStripMenuItem 个人信息管理ToolStripMenuItem;
     }
 }
