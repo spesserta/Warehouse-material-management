@@ -50,9 +50,9 @@ namespace WarehouseManageSystem
             UserInformation.userInfo = un;
 
             ////获取用户创建时间信息
-            //UserManageBLL userManageBLL = new UserManageBLL();
-            //DataTable dt = userManageBLL.GetUsersByName(un);
-            //UserInformation.CreateTime = Convert.ToDateTime(dt.Rows[0]["CreatTime"]);
+            UserManageBLL userManageBLL = new UserManageBLL();
+            DataTable dt = userManageBLL.GetUsersByName(un);
+            UserInformation.CreateTime = Convert.ToDateTime(dt.Rows[0]["CreateTime"]);
             
 
 

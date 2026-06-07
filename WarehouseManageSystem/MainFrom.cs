@@ -57,17 +57,25 @@ namespace WarehouseManageSystemUI
 
         }
 
+        private System.Windows.Forms.Timer updataTimer;
         private void MainFrom_Load(object sender, EventArgs e)  //加载主窗体时顺便加载标签
         {
             label2.Text = UserInformation.userInfo;
             label3.Text = UserInformation.userIdentity;
             label8.Text = UserInformation.CreateTime.ToString();
 
-            DateTime dateTime = DateTime.Now;
-            label6.Text = dateTime.ToString();
-
+            updataTimer = new System.Windows.Forms.Timer();
+            updataTimer.Interval = 1000; //每秒间隔更新一次
+            updataTimer.Tick += UpdateTimer_Tick;
+            updataTimer.Start();
 
         }
+
+        private void UpdateTimer_Tick(object sender, EventArgs e)
+        {
+            label6.Text = DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
+        }
+
 
         private void 修改物料ToolStripMenuItem_Click(object sender, EventArgs e)
         {
