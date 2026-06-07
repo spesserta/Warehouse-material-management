@@ -75,8 +75,11 @@ namespace DAL
         //通过用户名来查找用户信息
         public DataTable SearchUserByName(string username)
         {
-            string strsql = $"select * from userDB where UserName = {username}";
+            string strsql = "select * from userDB where UserName = @name";
+
             SqlDataAdapter da = new SqlDataAdapter(strsql, DBHelper.connString);
+            da.SelectCommand.Parameters.AddWithValue("@name", username);
+
             DataSet dt = new DataSet();
             da.Fill(dt);
             return dt.Tables[0];
