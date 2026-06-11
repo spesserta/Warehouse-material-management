@@ -141,6 +141,7 @@
 
 主页点击“用户管理”按钮即可到用户管理界面，该界面可以查看所有注册的用户信息，如果你是管理员身份，那么可以对其他普通用户的权限进行修改或者删除该用户。
 
+<img width="516" height="564" alt="image" src="https://github.com/user-attachments/assets/018d6110-1e34-4cfd-adcc-b01da983f3b5" />
 
 
 
