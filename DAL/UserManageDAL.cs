@@ -68,7 +68,7 @@ namespace DAL
         //用户列表
         public DataTable AllUsersDAL()
         {
-            string sqlStr = @"select * from userDB";
+            string sqlStr = @"select  UserId, UserName, CreateTime, IsAdmin from userDB";
             return DBHelper.GetDataTable(sqlStr);
         }
 
@@ -84,5 +84,31 @@ namespace DAL
             da.Fill(dt);
             return dt.Tables[0];
         }
+
+
+        //修改用户管理员权限
+        public bool UpdateUserRole(User user)
+        {
+            string sqlStr = @"update userDB set isAdmin = @isAdmin where UserName = @UserName";
+            SqlParameter[] param = new SqlParameter[]
+            {
+                new SqlParameter("@UserName",user.UserName),
+                new SqlParameter("@isAdmin",user.IsAdmin)
+            };
+            return DBHelper.ExcuteCommand(sqlStr, param);
+        }
+
+
+        //删除用户
+        public bool DeleteUser(User user)
+        {
+            string strSql = @"delete  from userDB where UserName = @UserName";
+            SqlParameter[] param = new SqlParameter[]
+            {
+                new SqlParameter("@UserName",user.UserName),
+            };
+            return DBHelper.ExcuteCommand(strSql, param);
+        }
+
     }
 }

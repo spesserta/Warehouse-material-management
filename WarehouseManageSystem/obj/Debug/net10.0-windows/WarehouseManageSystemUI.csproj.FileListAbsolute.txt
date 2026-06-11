@@ -40,3 +40,4 @@ C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\ne
 C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystemUI.InAndOutForm.resources
 C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystemUI.LogsForm.resources
 C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystemUI.guanyu.resources
+C:\Users\Legion\Desktop\WarehouseManageSystem\WarehouseManageSystem\obj\Debug\net10.0-windows\WarehouseManageSystemUI.userManageForm.resources

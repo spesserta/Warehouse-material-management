@@ -48,6 +48,7 @@
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
+            用户管理ToolStripMenuItem = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -55,10 +56,11 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { 物料ToolStripMenuItem, 退出ToolStripMenuItem, 出库ToolStripMenuItem, 推出ToolStripMenuItem, 个人信息管理ToolStripMenuItem, 退出ToolStripMenuItem1 });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { 物料ToolStripMenuItem, 退出ToolStripMenuItem, 出库ToolStripMenuItem, 推出ToolStripMenuItem, 用户管理ToolStripMenuItem, 个人信息管理ToolStripMenuItem, 退出ToolStripMenuItem1 });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 30);
+            menuStrip1.Padding = new Padding(5, 2, 0, 2);
+            menuStrip1.Size = new Size(622, 26);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -67,28 +69,28 @@
             物料ToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { 添加物料ToolStripMenuItem, 删除物料ToolStripMenuItem, 修改物料ToolStripMenuItem });
             物料ToolStripMenuItem.Font = new Font("华文仿宋", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 134);
             物料ToolStripMenuItem.Name = "物料ToolStripMenuItem";
-            物料ToolStripMenuItem.Size = new Size(108, 26);
+            物料ToolStripMenuItem.Size = new Size(88, 22);
             物料ToolStripMenuItem.Text = "物料管理";
             物料ToolStripMenuItem.Click += 物料ToolStripMenuItem_Click;
             // 
             // 添加物料ToolStripMenuItem
             // 
             添加物料ToolStripMenuItem.Name = "添加物料ToolStripMenuItem";
-            添加物料ToolStripMenuItem.Size = new Size(178, 26);
+            添加物料ToolStripMenuItem.Size = new Size(144, 22);
             添加物料ToolStripMenuItem.Text = "添加物料";
             添加物料ToolStripMenuItem.Click += 添加物料ToolStripMenuItem_Click;
             // 
             // 删除物料ToolStripMenuItem
             // 
             删除物料ToolStripMenuItem.Name = "删除物料ToolStripMenuItem";
-            删除物料ToolStripMenuItem.Size = new Size(178, 26);
+            删除物料ToolStripMenuItem.Size = new Size(144, 22);
             删除物料ToolStripMenuItem.Text = "删除物料";
             删除物料ToolStripMenuItem.Click += 删除物料ToolStripMenuItem_Click;
             // 
             // 修改物料ToolStripMenuItem
             // 
             修改物料ToolStripMenuItem.Name = "修改物料ToolStripMenuItem";
-            修改物料ToolStripMenuItem.Size = new Size(178, 26);
+            修改物料ToolStripMenuItem.Size = new Size(144, 22);
             修改物料ToolStripMenuItem.Text = "修改物料";
             修改物料ToolStripMenuItem.Click += 修改物料ToolStripMenuItem_Click;
             // 
@@ -96,7 +98,7 @@
             // 
             退出ToolStripMenuItem.Font = new Font("华文仿宋", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 134);
             退出ToolStripMenuItem.Name = "退出ToolStripMenuItem";
-            退出ToolStripMenuItem.Size = new Size(108, 26);
+            退出ToolStripMenuItem.Size = new Size(88, 22);
             退出ToolStripMenuItem.Text = "物料查询";
             退出ToolStripMenuItem.Click += 退出ToolStripMenuItem_Click;
             // 
@@ -104,7 +106,7 @@
             // 
             出库ToolStripMenuItem.Font = new Font("华文仿宋", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 134);
             出库ToolStripMenuItem.Name = "出库ToolStripMenuItem";
-            出库ToolStripMenuItem.Size = new Size(119, 26);
+            出库ToolStripMenuItem.Size = new Size(97, 22);
             出库ToolStripMenuItem.Text = "出库/入库";
             出库ToolStripMenuItem.Click += 出库ToolStripMenuItem_Click;
             // 
@@ -112,7 +114,7 @@
             // 
             推出ToolStripMenuItem.Font = new Font("华文仿宋", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 134);
             推出ToolStripMenuItem.Name = "推出ToolStripMenuItem";
-            推出ToolStripMenuItem.Size = new Size(108, 26);
+            推出ToolStripMenuItem.Size = new Size(88, 22);
             推出ToolStripMenuItem.Text = "操作日志";
             推出ToolStripMenuItem.Click += 推出ToolStripMenuItem_Click;
             // 
@@ -120,7 +122,7 @@
             // 
             个人信息管理ToolStripMenuItem.Font = new Font("华文仿宋", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 134);
             个人信息管理ToolStripMenuItem.Name = "个人信息管理ToolStripMenuItem";
-            个人信息管理ToolStripMenuItem.Size = new Size(66, 26);
+            个人信息管理ToolStripMenuItem.Size = new Size(54, 22);
             个人信息管理ToolStripMenuItem.Text = "关于";
             个人信息管理ToolStripMenuItem.Click += 个人信息管理ToolStripMenuItem_Click;
             // 
@@ -128,16 +130,17 @@
             // 
             退出ToolStripMenuItem1.Font = new Font("华文仿宋", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 134);
             退出ToolStripMenuItem1.Name = "退出ToolStripMenuItem1";
-            退出ToolStripMenuItem1.Size = new Size(66, 26);
+            退出ToolStripMenuItem1.Size = new Size(54, 22);
             退出ToolStripMenuItem1.Text = "退出";
             退出ToolStripMenuItem1.Click += 退出ToolStripMenuItem1_Click;
             // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(12, 42);
+            pictureBox1.Location = new Point(9, 36);
+            pictureBox1.Margin = new Padding(2, 3, 2, 3);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(776, 328);
+            pictureBox1.Size = new Size(604, 279);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
@@ -145,80 +148,96 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(24, 387);
+            label1.Location = new Point(19, 329);
+            label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
-            label1.Size = new Size(84, 20);
+            label1.Size = new Size(68, 17);
             label1.TabIndex = 2;
             label1.Text = "欢迎登录：";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(114, 387);
+            label2.Location = new Point(89, 329);
+            label2.Margin = new Padding(2, 0, 2, 0);
             label2.Name = "label2";
-            label2.Size = new Size(53, 20);
+            label2.Size = new Size(43, 17);
             label2.TabIndex = 3;
             label2.Text = "label2";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(114, 421);
+            label3.Location = new Point(89, 358);
+            label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
-            label3.Size = new Size(53, 20);
+            label3.Size = new Size(43, 17);
             label3.TabIndex = 4;
             label3.Text = "label3";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(39, 421);
+            label4.Location = new Point(30, 358);
+            label4.Margin = new Padding(2, 0, 2, 0);
             label4.Name = "label4";
-            label4.Size = new Size(54, 20);
+            label4.Size = new Size(44, 17);
             label4.TabIndex = 5;
             label4.Text = "身份：";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(501, 387);
+            label5.Location = new Point(390, 329);
+            label5.Margin = new Padding(2, 0, 2, 0);
             label5.Name = "label5";
-            label5.Size = new Size(84, 20);
+            label5.Size = new Size(68, 17);
             label5.TabIndex = 6;
             label5.Text = "登录时间：";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(604, 387);
+            label6.Location = new Point(470, 329);
+            label6.Margin = new Padding(2, 0, 2, 0);
             label6.Name = "label6";
-            label6.Size = new Size(53, 20);
+            label6.Size = new Size(43, 17);
             label6.TabIndex = 7;
             label6.Text = "lable7";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(484, 421);
+            label7.Location = new Point(376, 358);
+            label7.Margin = new Padding(2, 0, 2, 0);
             label7.Name = "label7";
-            label7.Size = new Size(114, 20);
+            label7.Size = new Size(92, 17);
             label7.TabIndex = 8;
             label7.Text = "账号创建时间：";
             // 
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(604, 421);
+            label8.Location = new Point(470, 358);
+            label8.Margin = new Padding(2, 0, 2, 0);
             label8.Name = "label8";
-            label8.Size = new Size(53, 20);
+            label8.Size = new Size(43, 17);
             label8.TabIndex = 9;
             label8.Text = "lable7";
             // 
+            // 用户管理ToolStripMenuItem
+            // 
+            用户管理ToolStripMenuItem.Font = new Font("华文仿宋", 12F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            用户管理ToolStripMenuItem.Name = "用户管理ToolStripMenuItem";
+            用户管理ToolStripMenuItem.Size = new Size(88, 22);
+            用户管理ToolStripMenuItem.Text = "用户管理";
+            用户管理ToolStripMenuItem.Click += 用户管理ToolStripMenuItem_Click;
+            // 
             // MainFrom
             // 
-            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(622, 382);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
@@ -230,6 +249,7 @@
             Controls.Add(pictureBox1);
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
+            Margin = new Padding(2, 3, 2, 3);
             Name = "MainFrom";
             Text = "仓库物料管理系统-主页";
             Load += MainFrom_Load;
@@ -261,5 +281,6 @@
         private ToolStripMenuItem 个人信息管理ToolStripMenuItem;
         private Label label7;
         private Label label8;
+        private ToolStripMenuItem 用户管理ToolStripMenuItem;
     }
 }
