@@ -16,6 +16,11 @@
 
 ### 二、项目详细功能介绍
 
+
+<img width="4532" height="556" alt="PlantUML" src="https://github.com/user-attachments/assets/d839ce81-fa0d-48ff-8f29-ee7415adfdaf" />
+
+
+
 #### 1、登录注册界面
 
 点击启动即可来到登录界面，正确输入账号密码，点击登录按钮即可登录。
