@@ -118,5 +118,12 @@ namespace WarehouseManageSystemUI
             guanyu1.StartPosition = FormStartPosition.CenterScreen;
             guanyu1.ShowDialog();
         }
+
+        private void 用户管理ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            userManageForm userManageForm = new userManageForm();
+            userManageForm.StartPosition = FormStartPosition.CenterScreen;
+            userManageForm.ShowDialog();
+        }
     }
 }

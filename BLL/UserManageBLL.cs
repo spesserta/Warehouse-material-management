@@ -40,5 +40,18 @@ namespace BLL
                 return userManage.SearchUserByName(name);
             }
         }
+
+        //修改用户管理员权限
+        public bool UpdateUserRole(User user)
+        {
+            return userManage.UpdateUserRole(user);
+        }
+
+
+        //删除用户
+        public bool DeleteUser(User user)
+        {
+            return userManage.DeleteUser(user);
+        }
     }
 }
