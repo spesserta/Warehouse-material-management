@@ -231,11 +231,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Legion\\Desktop\\WarehouseManageSystem\\WarehouseManageSystem\\WarehouseManageSystemUI.csproj",
+      "projectUniqueName": "C:\\Users\\Legion\\Desktop\\项目合集\\WarehouseManageSystem\\WarehouseManageSystem\\WarehouseManageSystemUI.csproj",
       "projectName": "WarehouseManageSystemUI",
-      "projectPath": "C:\\Users\\Legion\\Desktop\\WarehouseManageSystem\\WarehouseManageSystem\\WarehouseManageSystemUI.csproj",
+      "projectPath": "C:\\Users\\Legion\\Desktop\\项目合集\\WarehouseManageSystem\\WarehouseManageSystem\\WarehouseManageSystemUI.csproj",
       "packagesPath": "C:\\Users\\Legion\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Legion\\Desktop\\WarehouseManageSystem\\WarehouseManageSystem\\obj\\",
+      "outputPath": "C:\\Users\\Legion\\Desktop\\项目合集\\WarehouseManageSystem\\WarehouseManageSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Legion\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -253,11 +253,11 @@
           "framework": "net10.0-windows7.0",
           "targetAlias": "net10.0-windows",
           "projectReferences": {
-            "C:\\Users\\Legion\\Desktop\\WarehouseManageSystem\\BLL\\BLL.csproj": {
-              "projectPath": "C:\\Users\\Legion\\Desktop\\WarehouseManageSystem\\BLL\\BLL.csproj"
+            "C:\\Users\\Legion\\Desktop\\项目合集\\WarehouseManageSystem\\BLL\\BLL.csproj": {
+              "projectPath": "C:\\Users\\Legion\\Desktop\\项目合集\\WarehouseManageSystem\\BLL\\BLL.csproj"
             },
-            "C:\\Users\\Legion\\Desktop\\WarehouseManageSystem\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\Legion\\Desktop\\WarehouseManageSystem\\Models\\Models.csproj"
+            "C:\\Users\\Legion\\Desktop\\项目合集\\WarehouseManageSystem\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\Legion\\Desktop\\项目合集\\WarehouseManageSystem\\Models\\Models.csproj"
             }
           }
         }
@@ -297,7 +297,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -590,5 +590,13 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "获取包漏洞数据时出错: 无法加载源 https://api.nuget.org/v3/index.json 的服务索引。"
+    }
+  ]
 }

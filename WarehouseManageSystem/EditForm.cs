@@ -16,6 +16,7 @@ namespace WarehouseManageSystemUI
         public EditForm()
         {
             InitializeComponent();
+            UITheme.ApplyForm(this);
         }
 
         private void EditForm_Load(object sender, EventArgs e)
@@ -173,3 +174,4 @@ namespace WarehouseManageSystemUI
         }
     }
 }
+

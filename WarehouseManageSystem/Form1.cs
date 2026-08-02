@@ -1,4 +1,4 @@
-using BLL;
+﻿using BLL;
 using Models;
 using System.Data;
 using WarehouseManageSystemUI;
@@ -11,6 +11,7 @@ namespace WarehouseManageSystem
         public Form1()
         {
             InitializeComponent();
+            UITheme.ApplyForm(this);
         }
 
         UserManageBLL umb = new UserManageBLL();

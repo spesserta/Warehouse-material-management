@@ -13,6 +13,7 @@ namespace WarehouseManageSystemUI
         public guanyu()
         {
             InitializeComponent();
+            UITheme.ApplyForm(this);
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -21,3 +22,4 @@ namespace WarehouseManageSystemUI
         }
     }
 }
+

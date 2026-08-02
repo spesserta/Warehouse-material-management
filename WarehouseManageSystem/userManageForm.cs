@@ -18,6 +18,7 @@ namespace WarehouseManageSystemUI
         public userManageForm()
         {
             InitializeComponent();
+            UITheme.ApplyForm(this);
         }
 
         private void userManageForm_Load(object sender, EventArgs e)
@@ -206,3 +207,4 @@ namespace WarehouseManageSystemUI
         }
     }
 }
+

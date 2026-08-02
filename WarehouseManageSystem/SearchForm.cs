@@ -14,6 +14,7 @@ namespace WarehouseManageSystemUI
         public SearchForm()
         {
             InitializeComponent();
+            UITheme.ApplyForm(this);
         }
 
         private void SearchForm_Load(object sender, EventArgs e)
@@ -158,3 +159,4 @@ namespace WarehouseManageSystemUI
         }
     }
 }
+

@@ -17,6 +17,7 @@ namespace WarehouseManageSystemUI
         public InAndOutForm()
         {
             InitializeComponent();
+            UITheme.ApplyForm(this);
         }
 
         private void InAndOutForm_Load(object sender, EventArgs e)
@@ -251,3 +252,4 @@ namespace WarehouseManageSystemUI
         }
     }
 }
+

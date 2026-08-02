@@ -15,6 +15,7 @@ namespace WarehouseManageSystemUI
         public RegistFrom()
         {
             InitializeComponent();
+            UITheme.ApplyForm(this);
         }
 
         private void label_Click(object sender, EventArgs e)
@@ -72,3 +73,4 @@ namespace WarehouseManageSystemUI
         }
     }
 }
+
