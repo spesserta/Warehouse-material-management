@@ -16,6 +16,7 @@ namespace WarehouseManageSystemUI
         public DelForm()
         {
             InitializeComponent();
+            UITheme.ApplyForm(this);
         }
 
         private void DelForm_Load(object sender, EventArgs e)
@@ -174,3 +175,4 @@ namespace WarehouseManageSystemUI
         }
     }
 }
+

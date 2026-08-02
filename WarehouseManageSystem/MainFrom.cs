@@ -15,6 +15,7 @@ namespace WarehouseManageSystemUI
         public MainFrom()
         {
             InitializeComponent();
+            UITheme.ApplyForm(this);
         }
 
         private void 物料ToolStripMenuItem_Click(object sender, EventArgs e)

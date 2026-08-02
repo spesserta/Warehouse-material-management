@@ -15,6 +15,7 @@ namespace WarehouseManageSystemUI
         public AddForm()
         {
             InitializeComponent();
+            UITheme.ApplyForm(this);
         }
 
         private void button3_Click(object sender, EventArgs e)  //关闭按钮
@@ -102,3 +103,4 @@ namespace WarehouseManageSystemUI
         }
     }
 }
+

@@ -1,10 +1,54 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Legion\\Desktop\\WarehouseManageSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2728B1DF-F6A0-4244-AAD7-D84B3F92E642}|DAL\\DAL.csproj|c:\\users\\legion\\desktop\\warehousemanagesystem\\dal\\usermanagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2728B1DF-F6A0-4244-AAD7-D84B3F92E642}|DAL\\DAL.csproj|solutionrelative:dal\\usermanagedal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|c:\\users\\legion\\desktop\\\u9879\u76EE\u5408\u96C6\\warehousemanagesystem\\warehousemanagesystem\\usermanageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|solutionrelative:warehousemanagesystem\\usermanageform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|c:\\users\\legion\\desktop\\\u9879\u76EE\u5408\u96C6\\warehousemanagesystem\\warehousemanagesystem\\uitheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|solutionrelative:warehousemanagesystem\\uitheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|c:\\users\\legion\\desktop\\\u9879\u76EE\u5408\u96C6\\warehousemanagesystem\\warehousemanagesystem\\searchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|solutionrelative:warehousemanagesystem\\searchform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|c:\\users\\legion\\desktop\\\u9879\u76EE\u5408\u96C6\\warehousemanagesystem\\warehousemanagesystem\\registfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|solutionrelative:warehousemanagesystem\\registfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|c:\\users\\legion\\desktop\\\u9879\u76EE\u5408\u96C6\\warehousemanagesystem\\warehousemanagesystem\\mainfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|solutionrelative:warehousemanagesystem\\mainfrom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|c:\\users\\legion\\desktop\\\u9879\u76EE\u5408\u96C6\\warehousemanagesystem\\warehousemanagesystem\\logsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|solutionrelative:warehousemanagesystem\\logsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|c:\\users\\legion\\desktop\\\u9879\u76EE\u5408\u96C6\\warehousemanagesystem\\warehousemanagesystem\\inandoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|solutionrelative:warehousemanagesystem\\inandoutform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|c:\\users\\legion\\desktop\\\u9879\u76EE\u5408\u96C6\\warehousemanagesystem\\warehousemanagesystem\\guanyu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|solutionrelative:warehousemanagesystem\\guanyu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|c:\\users\\legion\\desktop\\\u9879\u76EE\u5408\u96C6\\warehousemanagesystem\\warehousemanagesystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|solutionrelative:warehousemanagesystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|c:\\users\\legion\\desktop\\\u9879\u76EE\u5408\u96C6\\warehousemanagesystem\\warehousemanagesystem\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|solutionrelative:warehousemanagesystem\\editform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|c:\\users\\legion\\desktop\\\u9879\u76EE\u5408\u96C6\\warehousemanagesystem\\warehousemanagesystem\\delform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|solutionrelative:warehousemanagesystem\\delform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|c:\\users\\legion\\desktop\\\u9879\u76EE\u5408\u96C6\\warehousemanagesystem\\warehousemanagesystem\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2AFABA0D-348F-DA19-762C-BEFD5AE42DF6}|WarehouseManageSystem\\WarehouseManageSystemUI.csproj|solutionrelative:warehousemanagesystem\\addform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,15 +67,147 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserManageDAL.cs",
-              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\WarehouseManageSystem\\DAL\\UserManageDAL.cs",
-              "RelativeDocumentMoniker": "DAL\\UserManageDAL.cs",
-              "ToolTip": "C:\\Users\\Legion\\Desktop\\WarehouseManageSystem\\DAL\\UserManageDAL.cs",
-              "RelativeToolTip": "DAL\\UserManageDAL.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAAwEYAAABLAAAAAAAAAA==",
+              "Title": "userManageForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\userManageForm.cs",
+              "RelativeDocumentMoniker": "WarehouseManageSystem\\userManageForm.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\userManageForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WarehouseManageSystem\\userManageForm.cs [\u8BBE\u8BA1]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-11T07:06:31.184Z",
+              "WhenOpened": "2026-08-02T00:27:01.547Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UITheme.cs",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\UITheme.cs",
+              "RelativeDocumentMoniker": "WarehouseManageSystem\\UITheme.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\UITheme.cs",
+              "RelativeToolTip": "WarehouseManageSystem\\UITheme.cs",
+              "ViewState": "AgIAALoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T00:26:52.866Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SearchForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\SearchForm.cs",
+              "RelativeDocumentMoniker": "WarehouseManageSystem\\SearchForm.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\SearchForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WarehouseManageSystem\\SearchForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T00:26:50.425Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RegistFrom.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\RegistFrom.cs",
+              "RelativeDocumentMoniker": "WarehouseManageSystem\\RegistFrom.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\RegistFrom.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WarehouseManageSystem\\RegistFrom.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T00:26:48.586Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainFrom.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\MainFrom.cs",
+              "RelativeDocumentMoniker": "WarehouseManageSystem\\MainFrom.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\MainFrom.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WarehouseManageSystem\\MainFrom.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T00:26:44.076Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LogsForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\LogsForm.cs",
+              "RelativeDocumentMoniker": "WarehouseManageSystem\\LogsForm.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\LogsForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WarehouseManageSystem\\LogsForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T00:26:40.65Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "InAndOutForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\InAndOutForm.cs",
+              "RelativeDocumentMoniker": "WarehouseManageSystem\\InAndOutForm.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\InAndOutForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WarehouseManageSystem\\InAndOutForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T00:26:37.741Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "guanyu.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\guanyu.cs",
+              "RelativeDocumentMoniker": "WarehouseManageSystem\\guanyu.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\guanyu.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WarehouseManageSystem\\guanyu.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T00:26:34.332Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Form1.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "WarehouseManageSystem\\Form1.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\Form1.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WarehouseManageSystem\\Form1.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T00:25:41.543Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EditForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\EditForm.cs",
+              "RelativeDocumentMoniker": "WarehouseManageSystem\\EditForm.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\EditForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WarehouseManageSystem\\EditForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T00:25:37.055Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DelForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\DelForm.cs",
+              "RelativeDocumentMoniker": "WarehouseManageSystem\\DelForm.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\DelForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WarehouseManageSystem\\DelForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T00:25:34.36Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddForm.cs [\u8BBE\u8BA1]",
+              "DocumentMoniker": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\AddForm.cs",
+              "RelativeDocumentMoniker": "WarehouseManageSystem\\AddForm.cs",
+              "ToolTip": "C:\\Users\\Legion\\Desktop\\\u9879\u76EE\u5408\u96C6\\WarehouseManageSystem\\WarehouseManageSystem\\AddForm.cs [\u8BBE\u8BA1]",
+              "RelativeToolTip": "WarehouseManageSystem\\AddForm.cs [\u8BBE\u8BA1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-02T00:25:18.415Z",
+              "EditorCaption": " [\u8BBE\u8BA1]"
             }
           ]
         }

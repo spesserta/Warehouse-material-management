@@ -37,6 +37,7 @@
             button2 = new Button();
             button3 = new Button();
             pictureBox1 = new PictureBox();
+            label4 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -51,52 +52,57 @@
             // label
             // 
             label.AutoSize = true;
-            label.Font = new Font("华文仿宋", 25.8F, FontStyle.Bold, GraphicsUnit.Point, 134);
-            label.Location = new Point(339, 54);
+            label.Font = new Font("Microsoft YaHei UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            label.ForeColor = Color.FromArgb(47, 111, 237);
+            label.Location = new Point(304, 40);
             label.Name = "label";
-            label.Size = new Size(372, 48);
+            label.Size = new Size(292, 45);
             label.TabIndex = 1;
             label.Text = "仓库物料管理系统";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("华文仿宋", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 134);
-            label2.Location = new Point(356, 164);
+            label2.Font = new Font("Microsoft YaHei UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label2.Location = new Point(310, 158);
             label2.Name = "label2";
-            label2.Size = new Size(73, 22);
+            label2.Size = new Size(58, 21);
             label2.TabIndex = 2;
             label2.Text = "账号：";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("华文仿宋", 11.999999F, FontStyle.Bold, GraphicsUnit.Point, 134);
-            label3.Location = new Point(356, 233);
+            label3.Font = new Font("Microsoft YaHei UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label3.Location = new Point(310, 236);
             label3.Name = "label3";
-            label3.Size = new Size(73, 22);
+            label3.Size = new Size(58, 21);
             label3.TabIndex = 3;
             label3.Text = "密码：";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(455, 164);
+            textBox1.Font = new Font("Microsoft YaHei UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            textBox1.Location = new Point(310, 184);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(205, 27);
+            textBox1.Size = new Size(270, 28);
             textBox1.TabIndex = 4;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(455, 233);
+            textBox2.Font = new Font("Microsoft YaHei UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            textBox2.Location = new Point(310, 262);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(205, 27);
+            textBox2.PasswordChar = '●';
+            textBox2.Size = new Size(270, 28);
             textBox2.TabIndex = 5;
             // 
             // button2
             // 
-            button2.Location = new Point(399, 310);
+            button2.Font = new Font("Microsoft YaHei UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            button2.Location = new Point(310, 330);
             button2.Name = "button2";
-            button2.Size = new Size(94, 29);
+            button2.Size = new Size(126, 38);
             button2.TabIndex = 7;
             button2.Text = "登录";
             button2.UseVisualStyleBackColor = true;
@@ -104,9 +110,10 @@
             // 
             // button3
             // 
-            button3.Location = new Point(557, 310);
+            button3.Font = new Font("Microsoft YaHei UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            button3.Location = new Point(454, 330);
             button3.Name = "button3";
-            button3.Size = new Size(94, 29);
+            button3.Size = new Size(126, 38);
             button3.TabIndex = 8;
             button3.Text = "注册";
             button3.UseVisualStyleBackColor = true;
@@ -114,19 +121,32 @@
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = Color.White;
             pictureBox1.Image = WarehouseManageSystemUI.Properties.Resources.image_307042625259430___副本;
-            pictureBox1.Location = new Point(12, 18);
+            pictureBox1.Location = new Point(5, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(321, 342);
+            pictureBox1.Size = new Size(280, 392);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 9;
             pictureBox1.TabStop = false;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Microsoft YaHei UI", 9F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label4.ForeColor = Color.FromArgb(128, 140, 160);
+            label4.Location = new Point(291, 85);
+            label4.Name = "label4";
+            label4.Size = new Size(313, 20);
+            label4.TabIndex = 10;
+            label4.Text = "Warehouse Material Management System";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(9F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(708, 388);
+            ClientSize = new Size(608, 420);
+            Controls.Add(label4);
             Controls.Add(pictureBox1);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -157,5 +177,6 @@
         private Button button2;
         private Button button3;
         private PictureBox pictureBox1;
+        private Label label4;
     }
 }

@@ -17,6 +17,7 @@ namespace WarehouseManageSystemUI
         public LogsForm()
         {
             InitializeComponent();
+            UITheme.ApplyForm(this);
         }
 
         private void LogsForm_Load(object sender, EventArgs e)
@@ -174,3 +175,4 @@ namespace WarehouseManageSystemUI
         }
     }
 }
+

@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Legion\\Desktop\\WarehouseManageSystem\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\Users\\Legion\\Desktop\\项目合集\\WarehouseManageSystem\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\Users\\Legion\\Desktop\\WarehouseManageSystem\\Models\\Models.csproj",
+      "projectPath": "C:\\Users\\Legion\\Desktop\\项目合集\\WarehouseManageSystem\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\Legion\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Legion\\Desktop\\WarehouseManageSystem\\Models\\obj\\",
+      "outputPath": "C:\\Users\\Legion\\Desktop\\项目合集\\WarehouseManageSystem\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Legion\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -69,7 +69,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

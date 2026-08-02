@@ -32,50 +32,69 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            label4 = new Label();
             SuspendLayout();
             // 
             // label10
             // 
             label10.AutoSize = true;
-            label10.Font = new Font("华文仿宋", 36F, FontStyle.Bold, GraphicsUnit.Point, 134);
-            label10.Location = new Point(151, 30);
+            label10.Font = new Font("Microsoft YaHei UI", 20F, FontStyle.Bold, GraphicsUnit.Point, 134);
+            label10.ForeColor = Color.FromArgb(47, 111, 237);
+            label10.Location = new Point(185, 28);
             label10.Name = "label10";
-            label10.Size = new Size(151, 68);
+            label10.Size = new Size(90, 36);
             label10.TabIndex = 24;
             label10.Text = "关于";
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(28, 149);
+            label1.AutoSize = false;
+            label1.Font = new Font("Microsoft YaHei UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label1.Location = new Point(110, 140);
             label1.Name = "label1";
-            label1.Size = new Size(117, 20);
+            label1.Size = new Size(240, 26);
             label1.TabIndex = 25;
             label1.Text = "作者：Spessert";
+            label1.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label2
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(28, 195);
+            label2.AutoSize = false;
+            label2.Font = new Font("Microsoft YaHei UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label2.Location = new Point(70, 186);
             label2.Name = "label2";
-            label2.Size = new Size(245, 20);
+            label2.Size = new Size(320, 26);
             label2.TabIndex = 26;
             label2.Text = "联系方式：2878225574@qq.com";
+            label2.TextAlign = ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            label4.AutoSize = false;
+            label4.Font = new Font("Microsoft YaHei UI", 9.5F, FontStyle.Regular, GraphicsUnit.Point, 134);
+            label4.ForeColor = Color.FromArgb(128, 140, 160);
+            label4.Location = new Point(150, 232);
+            label4.Name = "label4";
+            label4.Size = new Size(160, 26);
+            label4.TabIndex = 28;
+            label4.Text = "版本：V1.0";
+            label4.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(12, 259);
+            label3.Location = new Point(12, 320);
             label3.Name = "label3";
-            label3.Size = new Size(0, 20);
+            label3.Size = new Size(0, 17);
             label3.TabIndex = 27;
             label3.Click += label3_Click;
             // 
             // guanyu
             // 
-            AutoScaleDimensions = new SizeF(9F, 20F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(487, 501);
+            ClientSize = new Size(460, 420);
+            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -92,5 +111,6 @@
         private Label label1;
         private Label label2;
         private Label label3;
+        private Label label4;
     }
 }
